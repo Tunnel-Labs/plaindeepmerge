@@ -1,0 +1,24 @@
+{
+	"name": "plaindeepmerge",
+	"version": "1.0.0",
+	"description": "Deep merging for plain objects using TypeScript's intersection type",
+	"exports": {
+		"require": {
+			"types": "./dist/$.d.cts",
+			"default": "./dist/$.cjs"
+		},
+		"import": {
+			"types": "./dist/$.d.mts",
+			"default": "./dist/$.mjs"
+		}
+	},
+	"scripts": {
+		"build": "pkgroll"
+	},
+	"devDependencies": {
+		"dprint": "0.45.0",
+		"pkgroll": "2.0.1",
+		"typescript": "5.3.3"
+	},
+	"files": ["dist"]
+}
